@@ -734,7 +734,7 @@ def get_text_selection(
 def get_textpage_ocr(
     page: pymupdf.Page,
     flags: int = 0,
-    language: str = "eng",
+    language: str = "eng+rus",
     dpi: int = 72,
     full: bool = False,
     tessdata: str = None,
